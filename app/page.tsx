@@ -20,37 +20,37 @@ import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen
 
 const services = [
   {
-    icon: "/images/s_6.png",
+    icon: "/images/CGI4.png",
     title: "CGI Advertisements",
     description:
       "Bring your brand's vision to life with stunning CGI ads that captivate and engage.",
   },
   {
-    icon: "/images/s_1.png",
+    icon: "/images/social.png",
     title: "Social Media Marketing",
     description:
       "Boost your online presence with tailored strategies that connect you with your audience.",
   },
   {
-    icon: "/images/s_5.png",
+    icon: "/images/content.png",
     title: "Content Creation",
     description:
       "Craft compelling content that resonates with your audience and strengthens your brand voice.",
   },
   {
-    icon: "/images/s_3.png",
+    icon: "/images/videoediting.png",
     title: "Video Editing",
     description:
       "Transform your footage into compelling videos that tell your story and resonate.",
   },
   {
-    icon: "/images/s_4.png",
+    icon: "/images/graphic.png",
     title: "Graphic Designs",
     description:
       "Elevate your brand with eye-catching designs that communicate your message effectively.",
   },
   {
-    icon: "/images/s_2.png",
+    icon: "/images/seo.png",
     title: "Search Engine Optimization",
     description:
       "Improve your search rankings and drive organic traffic with expert SEO strategies.",
@@ -263,11 +263,23 @@ export default function Home() {
                 direction="left"
                 items={[
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/logo/logo5.png",
                     name: "Logo",
                   },
                   {
-                    logo: "/logo/logo.webp",
+                    logo: "/logo/logo2.png",
+                    name: "Logo",
+                  },
+                  {
+                    logo: "/logo/logo3.png",
+                    name: "Logo",
+                  },
+                  {
+                    logo: "/logo/logo4.webp",
+                    name: "Logo",
+                  },
+                  {
+                    logo: "/logo/logo6.png",
                     name: "Logo",
                   },
                 ]}
@@ -359,7 +371,7 @@ export default function Home() {
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/logo/logo.webp"}
+            src={"/logo/myimg.png"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
@@ -367,8 +379,11 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;I&apos;ve been working on Building Brandup Creatives for over 1 year and
-              we have a team of experts which help us making our clients Happy❤️.
+              &quot;As an engineering student with a passion for creativity and innovation, 
+              I founded BrandUp Creatives to help brands grow and stand out. 
+              Combining technical skills with a deep understanding of design and marketing, 
+              our agency offers unique solutions in social media marketing, 
+              Content Creation, CGI Advertising, video editing, and graphic designs.❤️.
                &quot;
             </h1>
             <div className="flex items-center gap-x-1">
@@ -381,7 +396,7 @@ export default function Home() {
 
             <span className="text-xl font-medium">
               Kapil Gangwar<br />
-              Founder, Brandup Creatives
+              Founder, Brandup Creatives.
             </span>
           </div>
         </main>

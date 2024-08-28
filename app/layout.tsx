@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://www.birdagency.io/logo/logo.webp',
+        url: 'https://brandupcreatives.in/logo/logo.webp',
         width: 1200,
         height: 630,
-        alt: 'Bird Logo',
+        alt: 'Brandup Logo',
       },
     ],
   },
