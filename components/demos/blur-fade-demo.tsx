@@ -5,25 +5,25 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/Beyoond.png",
     title: "Beyond Water",
     link: "https://youtube.com/shorts/u-nes3788II?si=_i5pdh8Avp9LWzHF",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/nike.png",
     title: "Nike",
     link: "https://youtube.com/shorts/voGC9a9ttSo?si=b_u2Gl_AO7dZQ0Su",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/bk.png",
     title: "Burger King",
     link: "https://youtube.com/shorts/jjxUN4C5mIo?si=hE7-tUAfcCcUH85e",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/coca.png",
     title: "Coca Cola",
     link: "https://youtube.com/shorts/RU4WTb5qHP8?si=pXRCi0TbiutjGS5d",
   },
