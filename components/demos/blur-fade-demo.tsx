@@ -5,7 +5,7 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/Beyond.png",
+    imageUrl: "/images/Beyoond.png",
     title: "Beyond Water",
     link: "https://youtube.com/shorts/u-nes3788II?si=_i5pdh8Avp9LWzHF",
   },
