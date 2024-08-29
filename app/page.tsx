@@ -336,7 +336,7 @@ export default function Home() {
                 className="w-6"
                 alt="image"
               />
-              Creative
+              Innovative
               <Image
                 src={"/icons/star.svg"}
                 width={10000}

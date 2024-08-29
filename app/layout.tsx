@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
+import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
-const font = Space_Grotesk({ subsets: ["latin"] });
+
+const font = Bricolage_Grotesque({ subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "Brandup creatives",

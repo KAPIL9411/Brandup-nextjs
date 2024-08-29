@@ -12,8 +12,8 @@ export function CoverDemo() {
         relative
          z-20 
          bg-clip-text
-          text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-        Uplift your brand with <br />  <Cover>Brandup Creatives</Cover>
+          text-transparent bg-gradient-to-b from-neutral-600 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
+        UPLIFT your brand with <br />  <Cover>Brandup Creatives</Cover>
       </h1>
     </div>
   );

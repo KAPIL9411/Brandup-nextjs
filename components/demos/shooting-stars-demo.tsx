@@ -6,7 +6,7 @@ import Image from "next/image";
 const features = [
   {
     icon: "/icons/fast.svg",
-    title: "Fast Delivery",
+    title: "On-Time, Every Time",
     description:
       "1-2 weeks delivery for most projects. Call us for more information.",
   },
@@ -14,12 +14,12 @@ const features = [
     icon: "/icons/design.svg",
     title: "Design & Development",
     description:
-      "We design and develop your website with the latest technologies and trends.",
+      "We design and develop your project with the latest technologies and trends.",
   },
   {
     icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+    title: "Your Satisfaction, Guaranteed",
+    description: "We work until you’re completely satisfied with the results.",
   },
   {
     icon: "/icons/team.svg",
