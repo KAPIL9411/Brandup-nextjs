@@ -7,25 +7,25 @@ const works = [
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
     title: "Beyond Water",
-    link: "https://www.beyondwater.in",
+    link: "https://youtube.com/shorts/u-nes3788II?si=_i5pdh8Avp9LWzHF",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
     title: "Nike",
-    link: "https://www.nike.com",
+    link: "https://youtube.com/shorts/voGC9a9ttSo?si=b_u2Gl_AO7dZQ0Su",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
     title: "Burger King",
-    link: "https://www.BurgerKing.com",
+    link: "https://youtube.com/shorts/jjxUN4C5mIo?si=hE7-tUAfcCcUH85e",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
     title: "Coca Cola",
-    link: "https://www.CocaCola.com",
+    link: "https://youtube.com/shorts/RU4WTb5qHP8?si=pXRCi0TbiutjGS5d",
   },
 
 
