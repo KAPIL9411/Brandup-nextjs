@@ -379,11 +379,9 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;As an engineering student with a passion for creativity and innovation, 
-              I founded BrandUp Creatives to help brands grow and stand out. 
-              Combining technical skills with a deep understanding of design and marketing, 
-              our agency offers unique solutions in social media marketing, 
-              Content Creation, CGI Advertising, video editing, and graphic designs.❤️.
+              &quot;He, the Creative Mind Behind BrandUp Creatives, brings a wealth of experience in 
+              cutting-edge design and strategic marketing. Leading a team dedicated to helping 
+              emerging brands shine❤️.
                &quot;
             </h1>
             <div className="flex items-center gap-x-1">
