@@ -421,7 +421,7 @@ export default function Home() {
           </h1>
           <p className="text-left  text-xl  text-gray-500">9411867984</p>
           <p className="text-left  text-xl  text-gray-500">
-            kapil@brandupcreatives.in
+            brandupcreatives@gmail.com
           </p>
         </div>
 

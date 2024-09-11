@@ -7,7 +7,7 @@ import Image from "next/image";
 export const InfiniteMovingLogos = ({
   items,
   direction = "left",
-  speed = "slow",
+  speed = "normal",
   pauseOnHover = true,
   className,
 }: {
