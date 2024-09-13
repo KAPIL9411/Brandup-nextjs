@@ -1,41 +1,38 @@
 import BlurFade from "@/components/magicui/blur-fade";
-import Image from "next/image";
 import Link from "next/link";
 
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/beyond water.png",
+    videoUrl: "/videos/Beyondwater.mp4",
     title: "Beyond Water",
-    link: "https://youtube.com/shorts/u-nes3788II?si=_i5pdh8Avp9LWzHF",
+    link: "#",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/nike.png",
+    videoUrl: "/videos/nike.mp4",
     title: "Nike",
-    link: "https://youtube.com/shorts/voGC9a9ttSo?si=b_u2Gl_AO7dZQ0Su",
+    link: "#",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/bk.png",
+    videoUrl: "/videos/Burger.mp4",
     title: "Burger King",
-    link: "https://youtube.com/shorts/jjxUN4C5mIo?si=hE7-tUAfcCcUH85e",
+    link: "#",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/coca.png",
+    videoUrl: "/videos/coca.mp4",
     title: "Coca Cola",
-    link: "https://youtube.com/shorts/RU4WTb5qHP8?si=pXRCi0TbiutjGS5d",
+    link: "#",
   },
-
-
 ];
 
 export function BlurFadeDemo() {
   return (
-    <section id="photos">
+    <section id="videos">
       <div className="grid md:grid-cols-2 gap-8 mt-10 justify-items-center">
-        {works.map(({ imageUrl, title, link }, idx) => (
+        {works.map(({ videoUrl, title, link }, idx) => (
           <BlurFade
             key={title}
             delay={0.25 + idx * 0.05}
@@ -43,17 +40,18 @@ export function BlurFadeDemo() {
             className={`rounded-lg ${works[idx].background} p-4`}
           >
             <Link href={link} target="_blank" rel="noreferrer">
-              <Image
-                height={10000}
-                width={10000}
-                className="
-                h-5/6 w-full object-cover rounded-lg"
-        
-              
-       
-                src={imageUrl}
-                alt={`Random stock image ${idx + 1}`}
-              />
+              <video
+                height="auto"
+                width="100%"
+                className="h-5/6 w-full object-cover rounded-lg"
+                controls
+                muted
+                autoPlay
+                loop
+              >
+                <source src={videoUrl} type="video/mp4" />
+                Video
+              </video>
               <h3 className="text-lg font-semibold p-4">{title}</h3>
             </Link>
           </BlurFade>
