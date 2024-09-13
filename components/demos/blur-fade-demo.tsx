@@ -47,6 +47,7 @@ export function BlurFadeDemo() {
                 muted
                 autoPlay
                 loop
+                playsInline
               >
                 <source src={videoUrl} type="video/mp4" />
                 Video
