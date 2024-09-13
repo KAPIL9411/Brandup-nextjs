@@ -5,25 +5,25 @@ const works = [
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Beyondwater.mp4",
-    title: "Advertisement for Beyond Water",
+    title: "CGI Advertisement for Beyond Water",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/nike.mp4",
-    title: "Advertisement for Nike",
+    title: "CGI Advertisement for Nike",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Burger.mp4",
-    title: "Advertisement for Burger King",
+    title: "CGI Advertisement for Burger King",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/coca.mp4",
-    title: "Advertisement for Coca Cola",
+    title: "CGI Advertisement for Coca Cola",
     link: "#",
   },
 ];
@@ -44,7 +44,6 @@ export function BlurFadeDemo() {
                 height="auto"
                 width="100%"
                 className="h-5/6 w-full object-cover rounded-lg"
-                controls
                 muted
                 autoPlay
                 loop
