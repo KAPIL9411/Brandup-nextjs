@@ -4,26 +4,26 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    videoUrl: "/videos/Beyondwater.mp4",
-    title: "CGI Advertisement for Beyond Water",
+    videoUrl: "/videos/beyondwater.mp4",
+    title: "Beyond Water",
     link: "#",
   },
   {
     background: "bg-gray-200",
-    videoUrl: "/videos/nike.mp4",
-    title: "CGI Advertisement for Nike",
+    videoUrl: "/videos/Nike.mp4",
+    title: "Nike",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Burger.mp4",
-    title: "CGI Advertisement for Burger King",
+    title: "Burger King",
     link: "#",
   },
   {
     background: "bg-gray-200",
-    videoUrl: "/videos/coca.mp4",
-    title: "CGI Advertisement for Coca Cola",
+    videoUrl: "/videos/Coca.mp4",
+    title: "Coca Cola",
     link: "#",
   },
 ];
