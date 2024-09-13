@@ -39,11 +39,11 @@ export function BlurFadeDemo() {
             inView
             className={`rounded-lg ${works[idx].background} p-4`}
           >
-            <Link href={link} target="_blank" rel="noreferrer">
               <video
                 height="auto"
                 width="100%"
                 className="h-5/6 w-full object-cover rounded-lg"
+                controls
                 muted
                 autoPlay
                 loop
@@ -52,7 +52,7 @@ export function BlurFadeDemo() {
                 Video
               </video>
               <h3 className="text-lg font-semibold p-4">{title}</h3>
-            </Link>
+
           </BlurFade>
         ))}
       </div>
