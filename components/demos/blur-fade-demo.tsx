@@ -5,25 +5,25 @@ const works = [
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Beyondwater.mp4",
-    title: "Beyond Water",
+    title: "Advertisement for Beyond Water",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/nike.mp4",
-    title: "Nike",
+    title: "Advertisement for Nike",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Burger.mp4",
-    title: "Burger King",
+    title: "Advertisement for Burger King",
     link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/coca.mp4",
-    title: "Coca Cola",
+    title: "Advertisement for Coca Cola",
     link: "#",
   },
 ];
