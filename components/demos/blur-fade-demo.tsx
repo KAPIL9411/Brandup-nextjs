@@ -6,25 +6,21 @@ const works = [
     background: "bg-gray-200",
     videoUrl: "/videos/beyondwater.mp4",
     title: "Beyond Water",
-    link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Nike.mp4",
     title: "Nike",
-    link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Burger.mp4",
     title: "Burger King",
-    link: "#",
   },
   {
     background: "bg-gray-200",
     videoUrl: "/videos/Coca.mp4",
     title: "Coca Cola",
-    link: "#",
   },
 ];
 
@@ -43,6 +39,7 @@ export function BlurFadeDemo() {
                 height="auto"
                 width="100%"
                 className="h-5/6 w-full object-cover rounded-lg"
+                controls
                 muted
                 autoPlay
                 loop
