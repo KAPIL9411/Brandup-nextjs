@@ -32,7 +32,7 @@ export function BlurFadeDemo() {
   return (
     <section id="videos">
       <div className="grid md:grid-cols-2 gap-8 mt-10 justify-items-center">
-        {works.map(({ videoUrl, title, link }, idx) => (
+        {works.map(({ videoUrl, title, background }, idx) => (
           <BlurFade
             key={title}
             delay={0.25 + idx * 0.05}
