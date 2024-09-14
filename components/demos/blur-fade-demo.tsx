@@ -22,6 +22,17 @@ const works = [
     videoUrl: "/videos/Coca.mp4",
     title: "Coca Cola",
   },
+  {
+    background: "bg-gray-200",
+    videoUrl: "/videos/Coffee.mp4",
+    title: "Coffee Advertisement",
+  },
+  {
+    background: "bg-gray-200",
+    videoUrl: "/videos/August.mp4",
+    title: "15 August Banner",
+  },
+  
 ];
 
 export function BlurFadeDemo() {
